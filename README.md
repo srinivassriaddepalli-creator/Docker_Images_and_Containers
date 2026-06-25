@@ -1,6 +1,4 @@
-# Docker_Images_and_Containers
-
-# Dockerized Flask Application
+# Docker_Images_and_Containers Creation
 
 ## Project Overview
 
