@@ -168,7 +168,7 @@ Example:
 ```bash
 docker stop b3506f1b0dcb
 ```
-<img width="540" height="117" alt="Docker_ps6" src="https://github.com/user-attachments/assets/dde6e2bc-04bc-4885-8f69-052ee7033f48" />
+<img width="532" height="56" alt="Docker_stop6" src="https://github.com/user-attachments/assets/db9442d1-e4a9-4438-b55c-ee898684d4e5" />
 
 ---
 
