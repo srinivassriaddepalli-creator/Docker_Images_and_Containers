@@ -1,4 +1,4 @@
-# Docker_Images_and_Containers
+<img width="540" height="117" alt="Docker_ps6" src="https://github.com/user-attachments/assets/9196e1b2-cfc1-4a8a-bb99-a47b3bf1d6b8" /># Docker_Images_and_Containers
 
 # Dockerized Flask Application
 
@@ -120,6 +120,7 @@ Port Mapping:
 Host Port      : 5001
 Container Port : 5000
 ```
+<img width="534" height="140" alt="Docker_port_mapping4" src="https://github.com/user-attachments/assets/9ad15481-ced2-46e8-96f3-bf69b7ce226a" />
 
 Access the application:
 
@@ -132,6 +133,7 @@ Available endpoints:
 ```text
 /
 ```
+<img width="539" height="113" alt="Docker_run5" src="https://github.com/user-attachments/assets/cddeccab-caaf-4a8e-92bf-b7b2d3bb9d0b" />
 
 ```text
 /contact
@@ -151,7 +153,6 @@ Example:
 CONTAINER ID   IMAGE      STATUS
 b3506f1b0dcb   dev:v1.0   Up
 ```
-
 ---
 
 ## Stop Running Containers
@@ -165,6 +166,7 @@ Example:
 ```bash
 docker stop b3506f1b0dcb
 ```
+<img width="540" height="117" alt="Docker_ps6" src="https://github.com/user-attachments/assets/dde6e2bc-04bc-4885-8f69-052ee7033f48" />
 
 ---
 
@@ -175,6 +177,7 @@ Tag the image before pushing to Docker Hub:
 ```bash
 docker tag dev:v1.0 srinivas1431/dev:v1.0
 ```
+<img width="530" height="13" alt="Docker_tag7" src="https://github.com/user-attachments/assets/ac736904-f19e-4874-85a4-6e2ce75c8a5d" />
 
 Verify:
 
@@ -189,6 +192,7 @@ REPOSITORY              TAG
 dev                     v1.0
 srinivas1431/dev        v1.0
 ```
+<img width="536" height="76" alt="Docker_tagged_image8" src="https://github.com/user-attachments/assets/c42ed6bc-c1e2-4189-887f-ce8d897ea859" />
 
 ---
 
@@ -203,6 +207,7 @@ Successful push output:
 ```text
 v1.0: digest: sha256:xxxxxxxxxxxxxxxx
 ```
+<img width="532" height="155" alt="Docker_push9" src="https://github.com/user-attachments/assets/53f7e98d-b140-472d-8e30-35c0e21d6576" />
 
 ---
 
@@ -211,6 +216,7 @@ v1.0: digest: sha256:xxxxxxxxxxxxxxxx
 ```bash
 docker image rm srinivas1431/dev:v1.0
 ```
+<img width="547" height="79" alt="Docker_rm_image10" src="https://github.com/user-attachments/assets/9e53cee4-cc7b-4159-859e-e2ace60a94ef" />
 
 ---
 
@@ -221,12 +227,12 @@ Download the image from Docker Hub:
 ```bash
 docker pull srinivas1431/dev:v1.0
 ```
-
 Verify:
 
 ```bash
 docker images
 ```
+<img width="544" height="143" alt="Docker_image_pull11" src="https://github.com/user-attachments/assets/1a528b63-9ac6-49e4-8c6a-907ebce3e7d9" />
 
 ---
 
