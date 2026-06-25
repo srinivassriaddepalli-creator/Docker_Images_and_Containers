@@ -153,6 +153,8 @@ Example:
 CONTAINER ID   IMAGE      STATUS
 b3506f1b0dcb   dev:v1.0   Up
 ```
+<img width="540" height="117" alt="Docker_ps6" src="https://github.com/user-attachments/assets/c4bdc5f3-bf1a-4b2a-9ef0-4a26bb2dceb0" />
+
 ---
 
 ## Stop Running Containers
