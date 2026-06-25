@@ -68,7 +68,6 @@ CMD ["python", "app.py"]
 ---
 
 ## Docker Login
-
 Authenticate with Docker Hub:
 
 ```bash
@@ -80,7 +79,7 @@ Example:
 ```bash
 docker login -u srinivas1431
 ```
-
+<img width="509" height="118" alt="Docker_Login1" src="https://github.com/user-attachments/assets/37096dde-892f-493b-8494-827071e86cb5" />
 ---
 
 ## Build Docker Image
@@ -90,19 +89,20 @@ Build the image using the Dockerfile:
 ```bash
 docker build . -t dev:v1.0
 ```
+<img width="543" height="313" alt="Docker_building_image2" src="https://github.com/user-attachments/assets/253b633a-0232-424f-bfa9-d720fca019ee" />
 
 Verify image creation:
 
 ```bash
 docker images
 ```
-
 Output:
 
 ```text
 REPOSITORY   TAG     IMAGE ID
 dev          v1.0    2093396675c6
 ```
+<img width="540" height="53" alt="Docker_images3" src="https://github.com/user-attachments/assets/1b9db0a7-88e2-4f2b-bcd5-f28820a64608" />
 
 ---
 
